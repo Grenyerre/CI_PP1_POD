@@ -10,7 +10,7 @@
 
 li,
 a {
-    font-family: "Zen-Maru-Gothic", sans-serif;
+    font-family: "Comfortaa", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #24252a;
@@ -34,7 +34,7 @@ header {
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 15px;
 }
 
 /* Main content */
@@ -69,7 +69,8 @@ main {
     color: #000;
     font-family: "Comfortaa", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 24px;
+    font-style: oblique;
 }
 
 /* #byline h2,
