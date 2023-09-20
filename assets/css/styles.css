@@ -8,7 +8,7 @@
     background-color: #fff;
 }
 
-li, h2, h3,
+li,
 a {
     font-family: "Zen-Maru-Gothic", sans-serif;
     font-weight: 500;
@@ -46,7 +46,7 @@ main {
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
-} 
+}
 
 /* Hero section */
 #hero {
@@ -68,9 +68,12 @@ main {
     padding-left: 10px;
 }
 
-#byline>h2,
-#byline>h3 {
+#byline h2,
+#byline h3 {
     color: #000;
+    font-family: "Zen-Maru-Gothic", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 /* Reasons section */
