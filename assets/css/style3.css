@@ -5,11 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #fff;
-}
-
-li, h2,
-a {
+    background-color: #fffff8;
     font-family: "Comfortaa", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -17,6 +13,7 @@ a {
     text-decoration: none;
 }
 
+/* General Header styling */
 header {
     display: flex;
     justify-content: space-between;
@@ -27,11 +24,17 @@ header {
 .logo {
     display: flex;
     justify-content: flex-start;
-    min-width: 30%;
-    max-width: 75px;
+    /* min-width: 30%; */
+    max-width: 100px;
     margin-left: 0px;
 }
 
+.nav_links li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+/* Home - Main */
 #hero {
     display: flex;
     justify-content: center;
@@ -48,7 +51,7 @@ header {
 }
 
 #byline {
-    border: 1px solid #fff;
+    border: 1px solid #fffff8;
     font-size: 100%;
     position: absolute;
     bottom: 1px;
@@ -68,10 +71,6 @@ header {
     color: #24252a;
 }
 
-.nav_links li {
-    display: inline-block;
-    padding: 0px 15px;
-}
 
 .greenline {
     height: 5px;
@@ -91,7 +90,53 @@ header {
     border: none;
 }
 
-/*Services section*/
+/* Home - Contact section */
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactus {
+    min-width: 80%;
+    margin: 10px;
+    border: 1px solid #333;
+    /* box-shadow: 8px 8px 5px #444; */
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+    text-align: center;
+}
+
+.opening-times {
+    width: 225px;
+    margin: 5px;
+    border: 1px solid #333;
+    padding: 20px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
+
+.phone_email {
+    width: 225px;
+    margin: 5px;
+    border: 1px solid #333;
+    padding: 20px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
+
+.address {
+    width: 225px;
+    margin: 5px;
+    border: 1px solid #333;
+    padding: 20px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
+
+/* Google map */
+#google-map {
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+/* About Us - Services section*/
 #services {
     display: flex;
     flex-wrap: wrap;
@@ -118,7 +163,17 @@ header {
     font-size: 12px;
 }
 
-/* Form */
+/* Gallery-Main section */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
+/* Sign Up-Main section */
 #signup {
     background-image: url("../images/ducatitrack1.webp");
     background-size: cover;
@@ -127,19 +182,16 @@ header {
     flex-grow: 1;
 }
 
-
 #signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
 
-
-#signup-form>h2 {
+/* #signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
-}
-
+} */
 
 .text-input {
     background: transparent;
@@ -152,13 +204,11 @@ header {
     padding: 0 5px;
 }
 
-
 .radio-buttons {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-
 
 .join-button {
     margin-top: 20px;
@@ -169,7 +219,7 @@ header {
     color: #fafafa;
 }
 
-/* Footer */
+/* General Footer styling */
 #social-networks {
     text-align: center;
     padding: 20px 0;
