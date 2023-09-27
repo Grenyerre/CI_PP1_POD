@@ -95,7 +95,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%
+    padding: 10px 10%;
 }
 
 .contactus {
@@ -104,7 +104,6 @@ header {
     border: 1px solid #333;
     padding: 10px;
     background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
-    
 }
 
 .opening-times {
@@ -147,45 +146,132 @@ header {
     line-height: 0;
 }
 
-/* About Us - Services section*/
-#services {
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: center;
-    align-items: center;
-    padding: 10px;
-    color: #000; */
-}
-
-#whatweoffer {
+/* About Us - Meet the team */
+#meet {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%
+    padding: 10px 10%;
+}
+
+#mario-image {
+    display: flex;
+    background: url('../images/mario.png') no-repeat top center / cover;
+    height: 80vw;
+    width: 80vw;
+    margin: auto;
+    /* Makes the square image into a circle */
+    border: 1px solid #333;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#mario-bio {
+    width: 225px;
+    margin: auto;
+    border: 1px solid #000;
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 0;
+}
+
+#luigi-image {
+    display: flex;
+    background: url('../images/luigi.png') no-repeat top center / cover;
+    height: 80vw;
+    width: 80vw;
+    margin: auto;
+    /* Makes the square image into a circle */
+    border: 1px solid #333;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#luigi-bio {
+    width: 225px;
+    margin: auto;
+    border: 1px solid #000;
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 0;
+}
+
+#pp-image {
+    display: flex;
+    background: url('../images/princess_peach.png') no-repeat top center / cover;
+    height: 80vw;
+    width: 80vw;
+    margin: auto;
+    /* Makes the square image into a circle */
+    border: 1px solid #333;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#pp-bio {
+    width: 225px;
+    margin: auto;
+    border: 1px solid #000;
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 0;
+}
+
+/* About Us - Services section */
+#services {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; */
+}
+
+#whatweoffer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
 .maintenance {
+    flex-basis: 225px;
+    flex-grow: 1;
     width: 225px;
     margin: auto;
     border: 1px solid #333;
-    padding: 20px;
+    padding: 10px;
     background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
 }
 
 .repair {
+    flex-basis: 225px;
+    flex-grow: 1;
     width: 225px;
     margin: auto;
     border: 1px solid #333;
-    padding: 20px;
+    padding: 10px;
     background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
 }
 
 .upgrade {
+    flex-basis: 225px;
+    flex-grow: 1;
     width: 225px;
     margin: 10px;
     border: 1px solid #333;
-    padding: 20px;
+    padding: 10px;
     background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
 }
 
@@ -196,17 +282,17 @@ header {
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
+    color: #fff;
+    background-color: transparent;
 }
 
 #signup-form {
-    color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
 
 .text-input {
     background: transparent;
-    color: #fafafa;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -237,10 +323,11 @@ header {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    bottom: 0;
 }
 
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #000;
 }
