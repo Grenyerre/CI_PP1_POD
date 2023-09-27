@@ -8,7 +8,7 @@
     background-color: #fff;
 }
 
-li,
+li, h2,
 a {
     font-family: "Comfortaa", sans-serif;
     font-weight: 500;
@@ -65,7 +65,7 @@ header {
 
 #byline>h2,
 #byline>h3 {
-    color: #000;
+    color: #24252a;
 }
 
 .nav_links li {
@@ -94,100 +94,79 @@ header {
 /*Services section*/
 #services {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    /* justify-content: center;
     align-items: center;
     padding: 10px;
-    color: #000;
+    color: #000; */
 }
 
-#mot-image {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #000;
-    height: 100px;
-    width: 100px;
-    background: url("../images/mot.webp") no-repeat center center/cover;
-    position: relative;
-    border-radius: 50%;
-    max-width: 100px;
-    max-height: 100px;
-}
-
-#maintenance {
+#whatweoffer {
     display: flex;
     flex-direction: column;
     font-size: 100%;
     position: absolute;
-    bottom: 1px;
+    /*bottom: 1px;
     right: 1px;
     width: 80%;
-    /* max-height: 130px;
+    max-height: 130px;
     max-width: 400px; */
-    padding: 5px 5px;
-    margin: 5px;
+    padding: 10px 10px;
+    margin: 10px;
     font-family: "Comfortaa", sans-serif;
     font-weight: 500;
     font-size: 12px;
 }
 
-#engine-image {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #000;
-    height: 100px;
-    width: 100px;
-    background: url("../images/engine.jpg") no-repeat center center/cover;
-    position: relative;
-    border-radius: 50%;
-    max-width: 100px;
-    max-height: 100px;
+/* Form */
+#signup {
+    background-image: url("../images/ducatitrack1.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
 }
 
-#repair {
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+
+.radio-buttons {
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
     font-size: 100%;
-    position: absolute;
-    bottom: 1px;
-    right: 1px;
-    width: 80%;
-    /* max-height: 130px;
-    max-width: 400px; */
-    padding: 5px 5px;
-    margin: 5px;
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-}
-
-#exhaust-image {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #000;
-    height: 100px;
-    width: 100px;
-    background: url("../images/exhaust.jpg") no-repeat center center/cover;
-    position: relative;
-    border-radius: 50%;
-    max-width: 100px;
-    max-height: 100px;
-}
-
-#upgrade {
-    display: flex;
-    flex-direction: column;
-    font-size: 100%;
-    position: absolute;
-    bottom: 1px;
-    right: 1px;
-    width: 80%;
-    /* max-height: 130px;
-    max-width: 400px; */
-    padding: 5px 5px;
-    margin: 5px;
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 500;
-    font-size: 12px;
+    background-color: #454b1b;
+    color: #fafafa;
 }
 
 /* Footer */
