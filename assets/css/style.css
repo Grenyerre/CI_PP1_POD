@@ -98,27 +98,35 @@ header {
     padding: 10px 10%;
 }
 
+#contact>h2,
+#contact>p {
+    color: #fff;
+}
+
 .contactus {
     width: 90%;
-    margin: auto;
-    border: 1px solid #333;
+    margin: 20px;
+    border: 3px solid #333;
     padding: 10px;
+    margin: 20px;
     background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
 }
 
 .opening-times {
     width: 225px;
-    margin: auto;
-    border: 1px solid #333;
+    margin: 20px;
+    border: 3px solid #333;
     padding: 20px;
+    margin: 20px;
     background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
 }
 
 .phone_email {
     width: 225px;
-    margin: auto;
-    border: 1px solid #333;
+    margin: 20px;
+    border: 3px solid #333;
     padding: 20px;
+    margin: 20px;
     background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
 }
 
@@ -127,6 +135,7 @@ header {
     margin: 10px;
     border: 1px solid #333;
     padding: 20px;
+    margin: 20px;
     background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
 }
 
@@ -155,20 +164,22 @@ header {
     padding: 10px 10%;
 }
 
-#mario-image {
+#gio-image, #raph-image, #eva-image {
     display: flex;
-    background: url('../images/mario.png') no-repeat top center / cover;
     height: 80vw;
     width: 80vw;
     margin: auto;
-    /* Makes the square image into a circle */
     border: 1px solid #333;
-    border-radius: 50%;
+    border-radius: 25%;
     max-width: 200px;
     max-height: 200px;
 }
 
-#mario-bio {
+#gio-image {
+    background: url('../images/gio.jpg') no-repeat top center / cover;
+}
+
+#gio-bio, #raph-bio, #eva-bio {
     width: 225px;
     margin: auto;
     border: 1px solid #000;
@@ -179,20 +190,19 @@ header {
     bottom: 0;
 }
 
-#luigi-image {
-    display: flex;
-    background: url('../images/luigi.png') no-repeat top center / cover;
-    height: 80vw;
+#raph-image {
+    /*display: flex;*/
+    background: url('../images/raph.jpg') no-repeat top center / cover;
+    /*height: 80vw;
     width: 80vw;
     margin: auto;
-    /* Makes the square image into a circle */
     border: 1px solid #333;
-    border-radius: 50%;
+    border-radius: 25%;
     max-width: 200px;
-    max-height: 200px;
+    max-height: 200px;*/
 }
 
-#luigi-bio {
+/*#raph-bio {
     width: 225px;
     margin: auto;
     border: 1px solid #000;
@@ -201,22 +211,21 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     position: relative;
     bottom: 0;
-}
+}*/
 
-#pp-image {
-    display: flex;
-    background: url('../images/princess_peach.png') no-repeat top center / cover;
-    height: 80vw;
+#eva-image {
+    /*display: flex;*/
+    background: url('../images/eva.jpg') no-repeat top center / cover;
+    /*height: 80vw;
     width: 80vw;
     margin: auto;
-    /* Makes the square image into a circle */
     border: 1px solid #333;
-    border-radius: 50%;
+    border-radius: 25%;
     max-width: 200px;
-    max-height: 200px;
+    max-height: 200px;*/
 }
 
-#pp-bio {
+/*#eva-bio {
     width: 225px;
     margin: auto;
     border: 1px solid #000;
@@ -225,17 +234,9 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     position: relative;
     bottom: 0;
-}
+}*/
 
 /* About Us - Services section */
-#services {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 10px; */
-}
-
 #whatweoffer {
     display: flex;
     flex-wrap: wrap;
@@ -287,7 +288,7 @@ header {
 }
 
 #signup-form {
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 30px;
 }
 
