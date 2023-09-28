@@ -1,334 +1,262 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Zen+Maru+Gothic:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Zen+Maru+Gothic:wght@500&display=swap");
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #fffff8;
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    color: #24252a;
-    text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #24252a;
+  text-decoration: none;
 }
 
 /* General Header styling */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
 }
 
 .logo {
-    display: flex;
-    justify-content: flex-start;
-    max-width: 100px;
-    margin-left: 0px;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100px;
+  margin-left: 0px;
 }
 
 .nav_links li {
-    display: inline-block;
-    padding: 0px 15px;
+  display: inline-block;
+  padding: 0px 15px;
 }
 
 /* Home - Main */
 #hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    color: rgba(255, 255, 255, 0.5)
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 #heroimage {
-    height: 400px;
-    width: 100%;
-    background: url("../images/lights.jpg") no-repeat center center/cover;
-    position: relative;
+  height: 600px;
+  width: 100%;
+  background: url("../images/lights.jpg") no-repeat center center/cover;
+  position: relative;
 }
 
 #byline {
-    border: 1px solid #fffff8;
-    font-size: 100%;
-    position: absolute;
-    bottom: 1px;
-    right: 1px;
-    width: 80%;
-    max-height: 130px;
-    max-width: 400px;
-    padding: 5px 5px;
-    margin: 5px;
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 500;
-    font-size: 18px;
+  font-size: 100%;
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+  width: 80%;
+  max-height: 130px;
+  max-width: 400px;
+  padding: 5px 5px;
+  margin: 5px;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
 }
 
-#byline>h2,
-#byline>h3 {
-    color: #24252a;
+#byline > h2,
+#byline > h3 {
+  color: #24252a;
 }
-
 
 .greenline {
-    height: 5px;
-    background-color: #0f0;
-    border: none;
+  height: 5px;
+  background-color: #0f0;
+  border: none;
 }
 
 .whiteline {
-    height: 5px;
-    background-color: #fff;
-    border: none;
+  height: 5px;
+  background-color: #fff;
+  border: none;
 }
 
 .redline {
-    height: 5px;
-    background-color: #f00;
-    border: none;
+  height: 5px;
+  background-color: #f00;
+  border: none;
 }
 
 /* Home - Contact section */
 #contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
 }
 
-#contact>h2,
-#contact>p {
-    color: #fff;
+#contact > h2,
+#contact > p {
+  color: #fff;
 }
 
 .contactus {
-    width: 90%;
-    margin: 20px;
-    border: 3px solid #333;
-    padding: 10px;
-    margin: 20px;
-    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+  width: 95%;
+  border: 3px solid #333;
+  padding: 5px;
+  margin: 2.5%;
+  text-align: center;
 }
 
-.opening-times {
-    width: 225px;
-    margin: 20px;
-    border: 3px solid #333;
-    padding: 20px;
-    margin: 20px;
-    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
-}
-
-.phone_email {
-    width: 225px;
-    margin: 20px;
-    border: 3px solid #333;
-    padding: 20px;
-    margin: 20px;
-    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
-}
-
+.opening-times,
+.phone_email,
 .address {
-    width: 225px;
-    margin: 10px;
-    border: 1px solid #333;
-    padding: 20px;
-    margin: 20px;
-    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+  min-width: 250px;
+  min-height: 150px;
+  text-align: center;
+  margin: 15px;
+  border: 3px solid #333;
+  padding: 10px;
 }
 
 /* Google map */
 #google-map {
-    height: 300px;
-    margin-bottom: 20px;
+  height: 300px;
+  margin-bottom: 20px;
 }
 
 /* Gallery-Main section */
 #photos img {
-    width: 100%;
-    line-height: 1em;
+  width: 100%;
+  line-height: 1em;
 }
 
 #photos {
-    line-height: 0;
+  line-height: 0;
 }
 
 /* About Us - Meet the team */
 #meet {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
-#gio-image, #raph-image, #eva-image {
-    display: flex;
-    height: 80vw;
-    width: 80vw;
-    margin: auto;
-    border: 1px solid #333;
-    border-radius: 25%;
-    max-width: 200px;
-    max-height: 200px;
+#gio-image,
+#raph-image,
+#eva-image {
+  flex-basis: 225px;
+  flex-grow: 1;
+  margin: 20px;
+  border: 3px solid #333;
+  border-radius: 25%;
+  padding: 10px;
+  max-width: 250px;
+  max-height: 250px;
 }
 
 #gio-image {
-    background: url('../images/gio.jpg') no-repeat top center / cover;
+  background: url("../images/gio.jpg") no-repeat top center / cover;
 }
 
-#gio-bio, #raph-bio, #eva-bio {
-    width: 225px;
-    margin: auto;
-    border: 1px solid #000;
-    padding: 10px;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: relative;
-    bottom: 0;
+#gio-bio,
+#raph-bio,
+#eva-bio {
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin: 15px;
+  border: 3px solid #333;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
 }
 
 #raph-image {
-    /*display: flex;*/
-    background: url('../images/raph.jpg') no-repeat top center / cover;
-    /*height: 80vw;
-    width: 80vw;
-    margin: auto;
-    border: 1px solid #333;
-    border-radius: 25%;
-    max-width: 200px;
-    max-height: 200px;*/
+  background: url("../images/raph.jpg") no-repeat top center / cover;
 }
-
-/*#raph-bio {
-    width: 225px;
-    margin: auto;
-    border: 1px solid #000;
-    padding: 10px;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: relative;
-    bottom: 0;
-}*/
 
 #eva-image {
-    /*display: flex;*/
-    background: url('../images/eva.jpg') no-repeat top center / cover;
-    /*height: 80vw;
-    width: 80vw;
-    margin: auto;
-    border: 1px solid #333;
-    border-radius: 25%;
-    max-width: 200px;
-    max-height: 200px;*/
+  background: url("../images/eva.jpg") no-repeat top center / cover;
 }
-
-/*#eva-bio {
-    width: 225px;
-    margin: auto;
-    border: 1px solid #000;
-    padding: 10px;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: relative;
-    bottom: 0;
-}*/
 
 /* About Us - Services section */
 #whatweoffer {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
-.maintenance {
-    flex-basis: 225px;
-    flex-grow: 1;
-    width: 225px;
-    margin: auto;
-    border: 1px solid #333;
-    padding: 10px;
-    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
-}
-
-.repair {
-    flex-basis: 225px;
-    flex-grow: 1;
-    width: 225px;
-    margin: auto;
-    border: 1px solid #333;
-    padding: 10px;
-    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
-}
-
+.maintenance,
+.repair,
 .upgrade {
-    flex-basis: 225px;
-    flex-grow: 1;
-    width: 225px;
-    margin: 10px;
-    border: 1px solid #333;
-    padding: 10px;
-    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin: 15px;
+  border: 1px solid #333;
+  padding: 10px;
 }
 
 /* Sign Up-Main section */
 #signup {
-    background-image: url("../images/ducatitrack1.webp");
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
-    color: #fff;
-    background-color: transparent;
+  background-image: url("../images/ducatitrack1.webp");
+  background-size: cover;
+  background-position: 90%;
+  padding: 20px 10% 0 10%;
+  flex-grow: 1;
+  color: #000;
+  background-color: transparent;
 }
 
 #signup-form {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px;
 }
 
 .text-input {
-    background: transparent;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-    padding: 0 5px;
+  background: transparent;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #000;
+  border-radius: 2px;
+  padding: 0 5px;
 }
 
 .radio-buttons {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px;
-    font-size: 100%;
-    background-color: #454b1b;
-    color: #fafafa;
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px;
+  font-size: 100%;
+  background-color: #f00;
+  color: #fafafa;
 }
 
 /* General Footer styling */
 #social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    bottom: 0;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  bottom: 0;
 }
 
 #social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #000;
+  font-size: 160%;
+  padding: 5%;
+  color: #000;
 }
