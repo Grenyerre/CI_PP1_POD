@@ -1,4 +1,4 @@
-![Podium logo](Grenyerre/CI_PP1_POD/assets/images/podium.png)
+![Podium logo](assets/images/podium.png)
 
 # Podium #
 
@@ -43,7 +43,7 @@ _Whereabouts in North Wales is Podium located?_ The postal address can be found 
 _I am unable to ride my bike to Podium, what can I do?_ Our collection and deliver service is mentioned on our Home page.
 _How much is an MOT test?_ The current price of a motorcycle MOT text is shown on our Home page.
 
-##Features - To Be Added##
+## Features - To Be Added ##
 
 **E-Commerce**
 An e-commerce portal would allow a vast array of consumerables, parts and upgrades to be purchased directly from Podium.
@@ -87,7 +87,7 @@ About page![About page Lighthouse report](assets/images/AboutLighthouse.png)
 
 Gallery page![Gallery page Lighthouse report](assets/images/GalleryLighthouse.png)
 
-Sign Up page![Sign Up page Lighthouse report](assets/images/SignupLighthouse.png)
+Sign Up page![Sign Up page Lighthouse report](assets/images/SignUpLighthouse.png)
 
 
 ## Unfixed Bugs ##
