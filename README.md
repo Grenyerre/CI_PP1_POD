@@ -1,6 +1,7 @@
 ![Podium logo](Grenyerre/CI_PP1_POD/assets/images/podium.png)
 
-#Podium#
+# Podium #
+
 Many motorcyclists love Italian motorbikes. It is said that they have characters, personalities, and traits that remain in your heart. Unfortunately, they also seem to have
 electrical and mechanical issues, and numerous foibles that can ruin ownership. Dealers are expensive and hard to locate for many models, older bikes can be 'money pits' if
 they are taken to a normal mechanic. Podium are here to rectify that.
@@ -8,7 +9,8 @@ they are taken to a normal mechanic. Podium are here to rectify that.
 This is the site for Podium, based in North Wales (home to some of the best motorcycling roads in the country!), they are specialists in the maintenance, repair and upgrading
 of Italian motorcycles. With over 50 years experience and a geniune passion for Italian Moto-Exotica, they provide a professional, bespoke service. Whether it is a simple MOT test, an engine rebuild, or preparing your bike for the TT, Podium can handle it.
 
-##Features - Existing##
+## Features - Existing ##
+
 **All pages**
 (1) Logo - This is the logo for the Podium company. It occupies the same location on each page, giving a corporate, professional look to the site. It can be clicked on to
 return the user to the 'Home' page.
@@ -33,7 +35,8 @@ motorcycles.
 Users can enter their first and last names along with their email address. They must also select whether they predominantly ride 'Road', 'Track', or 'Both'. This allows the
 content sent to them to be tailored to their specific interests.
 
-##User Questions##
+## User Questions ##
+
 _I have just bought my dream bike but the nearest dealer is 200 miles away. I live in Powys and it needs a service._ The starting price for servicing is shown on the Home page.
 _Which manufacturers' bikes can you work on?_ The primary manufacturers are listed on our Home page, as are our contact details if you wish to ask about a specific model.
 _Whereabouts in North Wales is Podium located?_ The postal address can be found on our Home page, along with a map.
@@ -51,7 +54,7 @@ Enabling owners and other interested parties to watch the team in action.
 **Talk to an Expert webchat**
 Time slots can be booked allowing users to speak directly with the team regarding issues they may have with their own bikes (payment in advance).
 
-##Testing##
+## Testing ##
 
 Once the 'Love Running' project was completed, I realised that it would be prudent to begin with a 'Mobile First' methodology in the design, production and implementation
 of the Podium site. Utilizing Google's DevTools, upon every content and style change I viewed the site at various display sizes and aspect ratios. This allowed me to
@@ -74,16 +77,28 @@ CSS3 [https://jigsaw.w3.org/css-validator]
 ![CSS validation screen](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgrenyerre.github.io%2FCI_PP1_POD%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 Accessibility [https://wave.webaim.org]
+![WAVE report of Podium](assets/images/WaveReportofPodium.png)
 
 Performance [https://developers.google.com/web/tools/lighthouse]
 
-##Unfixed Bugs##
+Home page![Home page Lighthouse report](assets/images/HomeLighthouse.png)
+
+About page![About page Lighthouse report](assets/images/AboutLighthouse.png)
+
+Gallery page![Gallery page Lighthouse report](assets/images/GalleryLighthouse.png)
+
+Sign Up page![Sign Up page Lighthouse report](assets/images/SignupLighthouse.png)
+
+
+## Unfixed Bugs ##
 On the 'About' page, under the 'Meet the Team' section, there are 3 images of the team members; Gio, Raph and Eva. Each image is repositioned slightly as the browser resizes however the image of Eva resizes considerably more and her face is lost.
 
-##Deployment##
+The map on the Home page uses a Bitly link. I have attempted to use numerous links but none function correctly.
+
+## Deployment ##
 The site was deployed to GitHub pages.
 
-##Credits##
+## Credits ##
 I must give credit Jo Heyndels, a Content Developer for Code Institute, for the 'Footer' code and that in the 'Gallery' and 'Sign Up' pages. This code was taken from her 'Love Running' project, part of the initial module of Code Institute's Full Stack Developer Course. The sign up box has been restyled but the code was copied.
 
 For the Header, code from the Skillthrive YouTube Channel was utilized. Link: <https://www.youtube.com/watch?v=PwWHL3RyQgk&ab_channel=Skillthrive>
@@ -91,6 +106,9 @@ For the Header, code from the Skillthrive YouTube Channel was utilized. Link: <h
 In in all of the cases above, I made numerous attempts to achieve a similar result. However, my code was always longer and didn't produce the desired result. Subsequently I used the code from the sources credited above.
 
 The pictorial icons used throughout the site are taken from Font Awesome website. Link <https://fontawesome.com/>
+
+The favicon was taken from favicon.io.
+
 
 **Content**
 
