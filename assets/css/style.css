@@ -5,7 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #f1f1f1;
+  background-color: transparent;
   font-family: "Comfortaa", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -62,6 +62,7 @@ header {
   font-family: "Comfortaa", sans-serif;
   font-weight: 500;
   font-size: 18px;
+  z-index: 10;
 }
 
 #byline > h2,
@@ -88,7 +89,8 @@ header {
 }
 
 /* Home - Contact section */
-#contact {
+#contact,
+#feedback {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -102,21 +104,23 @@ header {
   color: #fff;
 }
 
-.contactus {
-  width: 95%;
+.redgreenfade {
+  width: 90%;
   border: 3px solid #333;
   padding: 5px;
-  margin: 2.5%;
+  margin: 5%;
   text-align: center;
+  background-image: linear-gradient(180deg, #ff8888, #88ff88);
 }
 
 .opening-times,
 .phone_email,
-.address {
-  min-width: 250px;
+.address,
+.review {
+  min-width: 200px;
   min-height: 150px;
   text-align: center;
-  margin: 15px;
+  margin: 25px;
   border: 3px solid #333;
   padding: 10px;
 }
@@ -164,6 +168,14 @@ header {
   background: url("../images/gio.jpg") no-repeat top center / cover;
 }
 
+#raph-image {
+  background: url("../images/raph.jpg") no-repeat top center / cover;
+}
+
+#eva-image {
+  background: url("../images/eva.jpg") no-repeat top center / cover;
+}
+
 #gio-bio,
 #raph-bio,
 #eva-bio {
@@ -174,14 +186,6 @@ header {
   color: #fff;
   position: absolute;
   bottom: 0;
-}
-
-#raph-image {
-  background: url("../images/raph.jpg") no-repeat top center / cover;
-}
-
-#eva-image {
-  background: url("../images/eva.jpg") no-repeat top center / cover;
 }
 
 /* About Us - Services section */
@@ -208,8 +212,9 @@ header {
 #signup {
   background-image: url("../images/ducatitrack1.webp");
   background-size: cover;
-  background-position: 90%;
-  padding: 20px 10% 0 10%;
+  background-position: center;
+  height: 70%;
+  padding: 50px 15%;
   flex-grow: 1;
   color: #000;
   background-color: transparent;
@@ -218,6 +223,7 @@ header {
 #signup-form {
   background-color: rgba(255, 255, 255, 0.5);
   padding: 30px;
+  text-align: center;
 }
 
 .text-input {
