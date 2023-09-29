@@ -1,6 +1,9 @@
-![Podium logo](assets/images/podium.png)
+![Podium logo](assets/images/podium_logo.png)
 
 # Podium #
+
+![Am I Responsive view of Podium](assets/images/AmIResponsive.png)
+
 
 Many motorcyclists love Italian motorbikes. It is said that they have characters, personalities, and traits that remain in your heart. Unfortunately, they also seem to have
 electrical and mechanical issues, and numerous foibles that can ruin ownership. Dealers are expensive and hard to locate for many models, older bikes can be 'money pits' if
@@ -70,11 +73,11 @@ Opera by Opera:
 
 **Validator Testing**
 HTML5 [https://validator.w3.org]
-Error: 1 Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. This is how the width of the map on the Home page was set. Three different sources that I have utilized (developer.mozilla.org, w3schools.com and stackoverflow.com) recommended the use of the percentage unit to guarantee the design was responsive.
+Error: 1 Bad value 100% for attribute width on element <iframe></iframe>: Expected a digit but saw % instead. This is how the width of the map on the Home page was set. Three different sources that I have utilized (developer.mozilla.org, w3schools.com and stackoverflow.com) recommended the use of the percentage unit to guarantee the design was responsive.
 Info: 27 Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. I have removed these numerous times but they are restored upon reopening. I will have to find out whether this is a feature in the IDE that can be reset.
 
 CSS3 [https://jigsaw.w3.org/css-validator]
-![CSS validation screen](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgrenyerre.github.io%2FCI_PP1_POD%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+![CSS validation screen](assets/images/W3CCSSReport.png)
 
 Accessibility [https://wave.webaim.org]
 ![WAVE report of Podium](assets/images/WaveReportofPodium.png)
@@ -108,7 +111,6 @@ In in all of the cases above, I made numerous attempts to achieve a similar resu
 The pictorial icons used throughout the site are taken from Font Awesome website. Link <https://fontawesome.com/>
 
 The favicon was taken from favicon.io.
-
 
 **Content**
 
