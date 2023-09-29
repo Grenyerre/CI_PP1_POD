@@ -8,7 +8,7 @@
   background-color: transparent;
   font-family: "Comfortaa", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   color: #24252a;
   text-decoration: none;
 }
@@ -90,7 +90,9 @@ header {
 
 /* Home - Contact section */
 #contact,
-#feedback {
+#feedback,
+#meettheteam,
+#whatweoffer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -105,10 +107,10 @@ header {
 }
 
 .redgreenfade {
-  width: 90%;
+  min-width: 95%;
   border: 3px solid #333;
   padding: 5px;
-  margin: 5%;
+  margin: 5px;
   text-align: center;
   background-image: linear-gradient(180deg, #ff8888, #88ff88);
 }
@@ -120,7 +122,7 @@ header {
   min-width: 200px;
   min-height: 150px;
   text-align: center;
-  margin: 25px;
+  margin: 10px;
   border: 3px solid #333;
   padding: 10px;
 }
@@ -142,24 +144,26 @@ header {
 }
 
 /* About Us - Meet the team */
-#meet {
+/*#meettheteam {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-}
+  padding: 0;
+}*/
 
 #gio-image,
 #raph-image,
-#eva-image {
-  flex-basis: 225px;
-  flex-grow: 1;
-  margin: 20px;
+#eva-image,
+#gio-bio,
+#raph-bio,
+#eva-bio {
+  min-height: 250px;
+  min-width: 250px;
+  margin: 10px;
   border: 3px solid #333;
-  border-radius: 25%;
-  padding: 10px;
+  border-radius: 15%;
   max-width: 250px;
   max-height: 250px;
 }
@@ -176,7 +180,7 @@ header {
   background: url("../images/eva.jpg") no-repeat top center / cover;
 }
 
-#gio-bio,
+/*#gio-bio,
 #raph-bio,
 #eva-bio {
   flex-basis: 250px;
@@ -186,7 +190,7 @@ header {
   color: #fff;
   position: absolute;
   bottom: 0;
-}
+}*/
 
 /* About Us - Services section */
 #whatweoffer {
@@ -195,17 +199,19 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 0;
 }
 
 .maintenance,
 .repair,
 .upgrade {
-  flex-basis: 250px;
+  flex-basis: 300px;
   flex-grow: 1;
   margin: 15px;
-  border: 1px solid #333;
+  border: 3px solid #333;
   padding: 10px;
+  max-width: 500px;
+  min-height: 250px;
 }
 
 /* Sign Up-Main section */
