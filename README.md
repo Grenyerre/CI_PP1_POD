@@ -67,8 +67,14 @@ Opera by Opera:
 
 **Validator Testing**
 HTML5 [https://validator.w3.org]
+Error: 1 Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. This is how the width of the map on the Home page was set. Three different sources that I have utilized (developer.mozilla.org, w3schools.com and stackoverflow.com) recommended the use of the percentage unit to guarantee the design was responsive.
+Info: 27 Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. I have removed these numerous times but they are restored upon reopening. I will have to find out whether this is a feature in the IDE that can be reset.
+
 CSS3 [https://jigsaw.w3.org/css-validator]
+![CSS validation screen](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgrenyerre.github.io%2FCI_PP1_POD%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 Accessibility [https://wave.webaim.org]
+
 Performance [https://developers.google.com/web/tools/lighthouse]
 
 ##Unfixed Bugs##
