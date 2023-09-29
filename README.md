@@ -1,6 +1,6 @@
 ![Podium logo](Grenyerre/CI_PP1_POD/assets/images/podium.png)
 
-# Podium #
+#Podium#
 Many motorcyclists love Italian motorbikes. It is said that they have characters, personalities, and traits that remain in your heart. Unfortunately, they also seem to have
 electrical and mechanical issues, and numerous foibles that can ruin ownership. Dealers are expensive and hard to locate for many models, older bikes can be 'money pits' if
 they are taken to a normal mechanic. Podium are here to rectify that.
@@ -8,7 +8,7 @@ they are taken to a normal mechanic. Podium are here to rectify that.
 This is the site for Podium, based in North Wales (home to some of the best motorcycling roads in the country!), they are specialists in the maintenance, repair and upgrading
 of Italian motorcycles. With over 50 years experience and a geniune passion for Italian Moto-Exotica, they provide a professional, bespoke service. Whether it is a simple MOT test, an engine rebuild, or preparing your bike for the TT, Podium can handle it.
 
-## Features - Existing ##
+##Features - Existing##
 **All pages**
 (1) Logo - This is the logo for the Podium company. It occupies the same location on each page, giving a corporate, professional look to the site. It can be clicked on to
 return the user to the 'Home' page.
@@ -20,7 +20,7 @@ will open in a new browser, so that the user can easily return to the Podium sit
 Underneath the logo and navigation bar, there is a large, stylized image of a motorcyclist riding a motorcycle. In the bottom right-hand-corner, a small text overlay describes
 Podium. Any user landing on this page should be able to ascertain that is is aimed at motorcyclists and primarily those who own Italian-made models.
 Contact details - enables the user to address any inquiries to the business.
-Location map  - provided via Google(TM).
+Location map - provided via Google(TM).
 
 **The About page**
 A brief introduction to each member of the team and an example of the work Podium carry out. This allows the user to gauge the variety of work and the history of the team.
@@ -33,14 +33,15 @@ motorcycles.
 Users can enter their first and last names along with their email address. They must also select whether they predominantly ride 'Road', 'Track', or 'Both'. This allows the
 content sent to them to be tailored to their specific interests.
 
-## User Questions ##
-*I have just bought my dream bike but the nearest dealer is 200 miles away. I live in Powys and it needs a service.* The starting price for servicing is shown on the Home page.
-*Which manufacturers' bikes can you work on?* The primary manufacturers are listed on our Home page, as are our contact details if you wish to ask about a specific model.
-*Whereabouts in North Wales is Podium located?* The postal address can be found on our Home page, along with a map.
-*I am unable to ride my bike to Podium, what can I do?* Our collection and deliver service is mentioned on our Home page.
-*How much is an MOT test?* The current price of a motorcycle MOT text is shown on our Home page.
+##User Questions##
+_I have just bought my dream bike but the nearest dealer is 200 miles away. I live in Powys and it needs a service._ The starting price for servicing is shown on the Home page.
+_Which manufacturers' bikes can you work on?_ The primary manufacturers are listed on our Home page, as are our contact details if you wish to ask about a specific model.
+_Whereabouts in North Wales is Podium located?_ The postal address can be found on our Home page, along with a map.
+_I am unable to ride my bike to Podium, what can I do?_ Our collection and deliver service is mentioned on our Home page.
+_How much is an MOT test?_ The current price of a motorcycle MOT text is shown on our Home page.
 
-## Features - To Be Added ##
+##Features - To Be Added##
+
 **E-Commerce**
 An e-commerce portal would allow a vast array of consumerables, parts and upgrades to be purchased directly from Podium.
 **Video**
@@ -50,7 +51,7 @@ Enabling owners and other interested parties to watch the team in action.
 **Talk to an Expert webchat**
 Time slots can be booked allowing users to speak directly with the team regarding issues they may have with their own bikes (payment in advance).
 
-## Testing ##
+##Testing##
 
 Once the 'Love Running' project was completed, I realised that it would be prudent to begin with a 'Mobile First' methodology in the design, production and implementation
 of the Podium site. Utilizing Google's DevTools, upon every content and style change I viewed the site at various display sizes and aspect ratios. This allowed me to
@@ -59,7 +60,10 @@ In my experimentation with new (new to me anyway!) rules, selectors and declarat
 any browsers that may not support the code I wanted to use. I choose not to use any 'experimental' code, sticking instead to wel-tested and supported examples.
 
 **Browser Options**
-The Podium site was created via Google Chrome. Below is a list of the other browsers in which it has been viewed. Any browser specific idiosyncrasies are listed below:
+The Podium site was created via Google Chrome Version 117.0.5938.132. Below is a list of the other browsers in which it has been viewed.
+Microsoft Edge Version 117.0.2045.43:
+Mozilla Firefox Version 118.0.1:
+Opera by Opera:
 
 **Validator Testing**
 HTML5 [https://validator.w3.org]
@@ -67,31 +71,39 @@ CSS3 [https://jigsaw.w3.org/css-validator]
 Accessibility [https://wave.webaim.org]
 Performance [https://developers.google.com/web/tools/lighthouse]
 
-## Unfixed Bugs ##
+##Unfixed Bugs##
+On the 'About' page, under the 'Meet the Team' section, there are 3 images of the team members; Gio, Raph and Eva. Each image is repositioned slightly as the browser resizes however the image of Eva resizes considerably more and her face is lost.
 
-## Deployment ##
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+##Deployment##
+The site was deployed to GitHub pages.
 
-## Credits ##
+##Credits##
+I must give credit Jo Heyndels, a Content Developer for Code Institute, for the 'Footer' code and that in the 'Gallery' and 'Sign Up' pages. This code was taken from her 'Love Running' project, part of the initial module of Code Institute's Full Stack Developer Course. The sign up box has been restyled but the code was copied.
+
+For the Header, code from the Skillthrive YouTube Channel was utilized. Link: <https://www.youtube.com/watch?v=PwWHL3RyQgk&ab_channel=Skillthrive>
+
+In in all of the cases above, I made numerous attempts to achieve a similar result. However, my code was always longer and didn't produce the desired result. Subsequently I used the code from the sources credited above.
+
+The pictorial icons used throughout the site are taken from Font Awesome website. Link <https://fontawesome.com/>
 
 **Content**
 
 **Media**
 Image Sources
-ducatitrack1.webp	rawpixel.com
-ducatitrack2.webp	rawpixel.com
-lights.jpeg		    shutterstock.com
-mechanic.jpg		shutterstock.com
-mvbrutale.jpg		shutterstock.com		
-openroad.jpeg		shutterstock.com
-podium_logo.png     created by R. E. Grenyer, copyright (c)2023
-royalenfield.jpg	shutterstock.com
-rsv4.jpg		    shutterstock.com
-show.jpg		    shutterstock.com
-trees.jpg		    shutterstock.com
-tuareg.jpg		    shutterstock.com
-workshop.jpg	    pexels.com
-yamaha.jpg		    shutterstock.com
+ducatitrack1.webp rawpixel.com
+ducatitrack2.webp rawpixel.com
+eva.jpeg upsplash.com
+gio.jpeg upsplash.com
+lights.jpeg shutterstock.com
+mechanic.jpg shutterstock.com
+mvbrutale.jpg shutterstock.com
+openroad.jpeg shutterstock.com
+podium_logo.png created by R. E. Grenyer, copyright (c)2023
+raph.jpeg upsplash.com
+royalenfield.jpg shutterstock.com
+rsv4.jpg shutterstock.com
+show.jpg shutterstock.com
+trees.jpg shutterstock.com
+tuareg.jpg shutterstock.com
+workshop.jpg pexels.com
+yamaha.jpg shutterstock.com

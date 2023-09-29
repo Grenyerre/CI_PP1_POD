@@ -50,24 +50,25 @@ header {
 }
 
 #byline {
-  font-size: 100%;
+  font-size: 200%;
   position: absolute;
-  bottom: 1px;
-  right: 1px;
+  bottom: 5px;
+  right: 5px;
   width: 80%;
-  max-height: 130px;
-  max-width: 400px;
+  max-height: 300px;
+  max-width: 500px;
   padding: 5px 5px;
   margin: 5px;
   font-family: "Comfortaa", sans-serif;
   font-weight: 500;
   font-size: 18px;
   z-index: 10;
+  color: rgba(255, 255, 255, 0.5);
 }
 
-#byline > h2,
-#byline > h3 {
-  color: #24252a;
+#byline > h2 {
+  color: #fff;
+  font-size: 200%;
 }
 
 .greenline {
