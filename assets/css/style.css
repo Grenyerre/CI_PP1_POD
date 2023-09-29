@@ -94,16 +94,10 @@ header {
 #meettheteam,
 #whatweoffer {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
   padding: 0;
-}
-
-#contact > h2,
-#contact > p {
-  color: #fff;
 }
 
 .redgreenfade {
@@ -119,7 +113,7 @@ header {
 .phone_email,
 .address,
 .review {
-  min-width: 200px;
+  min-width: 260px;
   min-height: 150px;
   text-align: center;
   margin: 10px;
@@ -133,64 +127,43 @@ header {
   margin-bottom: 20px;
 }
 
-/* Gallery-Main section */
-#photos img {
-  width: 100%;
-  line-height: 1em;
-}
-
-#photos {
-  line-height: 0;
-}
-
 /* About Us - Meet the team */
-/*#meettheteam {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0;
-}*/
-
 #gio-image,
 #raph-image,
-#eva-image,
-#gio-bio,
-#raph-bio,
-#eva-bio {
-  min-height: 250px;
-  min-width: 250px;
-  margin: 10px;
-  border: 3px solid #333;
-  border-radius: 15%;
-  max-width: 250px;
-  max-height: 250px;
-}
-
-#gio-image {
-  background: url("../images/gio.jpg") no-repeat top center / cover;
-}
-
-#raph-image {
-  background: url("../images/raph.jpg") no-repeat top center / cover;
-}
-
 #eva-image {
-  background: url("../images/eva.jpg") no-repeat top center / cover;
-}
-
-/*#gio-bio,
-#raph-bio,
-#eva-bio {
-  flex-basis: 250px;
+  flex-basis: 300px;
   flex-grow: 1;
   margin: 15px;
   border: 3px solid #333;
-  color: #fff;
-  position: absolute;
-  bottom: 0;
-}*/
+  padding: 10px;
+  max-width: 40%;
+  min-height: 300px;
+  height: auto;
+}
+
+#gio-bio,
+#raph-bio,
+#eva-bio {
+  flex-basis: 300px;
+  flex-grow: 2;
+  margin: 15px;
+  border: 3px solid #333;
+  padding: 10px;
+  max-width: 500px;
+  min-height: 300px;
+}
+
+#gio-image {
+  background: url("../images/gio.jpg") no-repeat top center/cover;
+}
+
+#raph-image {
+  background: url("../images/raph.jpg") no-repeat top center/cover;
+}
+
+#eva-image {
+  background: url("../images/eva.jpg") no-repeat top center/cover;
+}
 
 /* About Us - Services section */
 #whatweoffer {
@@ -214,6 +187,16 @@ header {
   min-height: 250px;
 }
 
+/* Gallery-Main section */
+#photos img {
+  width: 100%;
+  line-height: 1em;
+}
+
+#photos {
+  line-height: 0;
+}
+
 /* Sign Up-Main section */
 #signup {
   background-image: url("../images/ducatitrack1.webp");
@@ -227,7 +210,7 @@ header {
 }
 
 #signup-form {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 30px;
   text-align: center;
 }
